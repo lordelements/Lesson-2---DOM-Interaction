@@ -63,25 +63,5 @@ button{
     font-weight: bold;
     width: 9rem;
     height: 2rem;
-}.circle {
-    background: linear-gradient(135deg, transparent 30%, #149279);
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    
-}.circle.one{
-    background: linear-gradient(135deg, transparent 40%, #9c4f07);
-    width: 130px;
-    height: 130px;
-    top: 130px;
-    line-height: -40px;
-    
-}.circle.two{
-    background: linear-gradient(135deg, transparent 40%, #c91111);
-    width: 80px;
-    height: 80px;
-    top: 10px;
-    line-height: 30px;
 }
 
