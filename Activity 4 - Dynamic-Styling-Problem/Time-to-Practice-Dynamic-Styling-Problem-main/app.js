@@ -2,6 +2,7 @@
 const app = Vue.createApp({
     data() {
      return {
+        showandvisible:false,
         visible:true,
         styleme: '',
         stylemeInline: '',
@@ -19,6 +20,9 @@ const app = Vue.createApp({
         },
         confirmedInput(){
             this.stylemeEnter = this.styleme;
+        },
+        toggleParagraph() {
+            this.showandvisible = !this.showandvisible;
         }
         
     },

@@ -11,8 +11,8 @@
     </header>
     <section id="assignment">
         <input type="text" @input="setparagraph" v-on:keyup.enter="confirmedInput">
-        <p v-if:class="visible">style me! {{ stylemeEnter }} </p>
-        <button @click="visible = !visible">Toggle Paragraph</button>
+        <p v-if="showandvisible">style me! {{ stylemeEnter }} </p>
+        <button @click="toggleParagraph">{{showandvisible ? 'Hide' : 'Show' }}Toggle Paragraph</button>
         <!-- Input Color background -->
         <input type="text" @input="setstyleColor"
          v-bind:style="{color: color}"
